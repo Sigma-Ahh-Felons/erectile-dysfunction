@@ -1,0 +1,33 @@
+name: Sigma test
+description: Hello skibidi
+title: '[Gyat]: '
+body:
+  - type: input
+    id: sigma
+    attributes:
+      label: Are you a gyat toilet?
+      description: H- h- hell yeah I am!!!!!!
+      placeholder: Yes.
+      value: Yes, I am a gyat toilet.
+    validations:
+      required: true
+  - type: checkboxes
+    id: funny
+    attributes:
+      label: Will you jerk it to skibidi?
+      description: Answer.
+      options:
+        - label: 'Yes'
+          required: true
+  - type: textarea
+    id: texty
+    attributes:
+      label: Tell area sigma
+      placeholder: gyat
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: >-
+        This template was generated with [Issue Forms
+        Creator](https://issue-forms-creator.netlify.app)
